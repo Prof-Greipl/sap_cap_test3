@@ -1,6 +1,6 @@
 # Getting Started
 
-Welcome to your new project.
+A lot of relevant and well explained stuff ist in https://www.youtube.com/watch?v=YwNdBSfZdjU 
 
 It contains these folders and files, following our recommended project layout:
 
