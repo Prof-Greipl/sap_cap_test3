@@ -1,0 +1,8 @@
+applications:
+- name: Test3
+command: node server.js
+path: app
+route: bookshop-srv-friendly-panther-vn.cfapps.eu10.hana.ondemand.com
+buildpack: nodejs_buildpack
+
+
