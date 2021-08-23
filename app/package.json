@@ -1,0 +1,13 @@
+{
+    "name": "app-ui",
+    "dependencies": {
+        "@sap/approuter": "^8.6.1",
+        "approuter": "0.0.1-security"
+    },
+    "engines": {
+        "node": "^10"
+    },
+    "scripts": {
+        "start": "node node_modules/@sap/approuter/approuter.js"
+    }
+}

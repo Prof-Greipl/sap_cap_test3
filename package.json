@@ -15,6 +15,7 @@
         "node": "^12 || ^14"
     },
     "devDependencies": {
+        "@sap/hdi-deploy": "^4.1.0",
         "sqlite3": "^5.0.2"
     },
     "scripts": {
