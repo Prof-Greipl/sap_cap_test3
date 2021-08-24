@@ -1,4 +1,4 @@
-# Getting Started (from Notebook)
+# Getting Started
 
 A lot of relevant and well explained stuff ist in https://www.youtube.com/watch?v=YwNdBSfZdjU 
 
