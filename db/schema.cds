@@ -1,4 +1,5 @@
-using { Currency, managed, sap } from '@sap/cds/common';
+using { Currency, managed, sap, cuid } from '@sap/cds/common';
+namespace my.bookshop;
 
 entity Books : managed {
   key ID : Integer;
@@ -23,3 +24,12 @@ entity Genres : sap.common.CodeList {
   parent   : Association to Genres;
   children : Composition of many Genres on children.parent = $self;
 }
+
+/*
+managed nimmt created_by, created_at, etc dazu... Das nennt man Aspect.
+*/
+entity Orders : cuid, managed {
+    book: Association to Books;
+    quantity: Integer; 
+}
+

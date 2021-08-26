@@ -13,5 +13,12 @@
     "eslint.options": {
         "configFile": "C:\\Users\\diete\\AppData\\Roaming\\npm\\node_modules\\@sap\\cds-dk\\lib\\lint\\.eslintrc.js"
     },
-    "actions": []
+    "actions": [],
+    "sqltools.connections": [
+        {
+            "dialect": "SQLite",
+            "database": "/home/user/projects/sap_cap_test3/bookshop.db",
+            "name": "My Bookshop SQL File"
+        }
+    ]
 }
