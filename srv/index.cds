@@ -14,8 +14,8 @@ annotate CatalogService.Books with @(
         HeaderInfo: {
             TypeName: 'Book',
             TypeNamePlural: 'Books',
-            Title: {Value: 'xx_title'},
-            Description: {Value: 'xx_desc'}            
+            Title: {Value: title},
+            Description: {Value: descr}            
         }
     }      
 );
